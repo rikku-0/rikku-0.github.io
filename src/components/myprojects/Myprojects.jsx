@@ -68,7 +68,7 @@ const Myprojects = () => {
           <div className="portfolio__item-image">
             <img src={Portfolio} alt="" />
           </div>
-          <h3>My Portfolio(This website)</h3>
+          <h3>Portfolio (This website)</h3>
           <small className="text-light">ReactJs</small>
           <div className="portfolio__item-cta">
             <a
