@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -38,26 +38,26 @@ html {
 }
 
 body {
-  font-family: "Afacad Flux", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
   background: hsla(200, 95%, 14%, 1);
 
-  background: radial-gradient(
-    circle,
+  background: linear-gradient(
+    90deg,
     hsla(200, 95%, 14%, 1) 0%,
     hsla(192, 70%, 43%, 1) 100%
   );
 
-  background: -moz-radial-gradient(
-    circle,
+  background: -moz-linear-gradient(
+    90deg,
     hsla(200, 95%, 14%, 1) 0%,
     hsla(192, 70%, 43%, 1) 100%
   );
 
-  background: -webkit-radial-gradient(
-    circle,
+  background: -webkit-linear-gradient(
+    90deg,
     hsla(200, 95%, 14%, 1) 0%,
     hsla(192, 70%, 43%, 1) 100%
   );
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .btn {
-  width: max-content; /* fit exactly it's content */
+  width: max-content;
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
